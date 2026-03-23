@@ -1,0 +1,208 @@
+Section 2 - AZ-900 - Describe Cloud Computing
+
+What is Cloud Computing
+
+	Cloud computing is the delivery of computing services over the internet (“the cloud”) to offer faster innovation, flexible resources, and economies of scale.
+
+Sample Resource in Microsoft Azure
+
+ Microsoft Azure - https:// portal.azure.com
+ 
+ Virtual Machine (VM) - a Windows/Linux server in the cloud.
+ 
+ Web App - Run code in the cloud without managing a VM.
+ 
+ Function App - Run Small code in the cloud without a server.
+ 
+ Logic App - A workflow; perform a series of steps. Chain things together.
+ 
+ Container - Pre-packaged applications; easier to deploy.
+ 
+ Azure Active Directory now called Entra ID
+ 
+============================================================================================================================
+
+Shared Responsibility Model
+
+On Premises Responsibility
+
+You are responsible for everything
+ - Buiding Security
+ - Physical network security
+ - Physical computer security
+ - Operating system patches
+ - Network and Firewall settings
+ - Appplication settings
+ - Authentication platform
+ - User Accounts
+ - Devices
+ - Data
+
+======
+
+
+IaaS (Infratrusture as a Service) (Mixed)
+
+Cloud Virtual Machine Responsibility:
+ - Buiding Security
+ - Physical network security
+ - Physical computer security
+ 
+Your Responsibility:
+ - Operating system patches
+ - Network and Firewall settings
+ - Appplication settings
+ - Authentication platform
+ - User Accounts
+ - Devices
+ - Data
+
+======
+
+PaaS (Platform as a Service) (Mixed/Shared Responsibility Model)
+
+Cloud App Service Responsibility:
+ - Buiding Security
+ - Physical network security
+ - Physical computer security
+ - Operating system patches
+ 
+Share responsibility:
+ - Network and Firewall settings
+ - Appplication settings
+ - Authentication platform
+ 
+Your Responsibility:
+ - User Accounts
+ - Devices
+ - Data
+
+
+======
+
+SaaS (Software as a Service) (Mixed/Shared Responsibility)
+
+Cloud SaaS Responsibility:
+ - Buiding Security
+ - Physical network security
+ - Physical computer security
+ - Operating system patches
+ - Network and Firewall settings
+ - Appplication settings
+ 
+Share responsibility:
+ - Authentication platform
+ 
+Your Responsibility:
+ - User Accounts
+ - Devices
+ - Data
+ 
+============================================================================================================================
+
+3 Main Types of cloud environment
+
+Public Cloud
+
+	Is defined as computing services offered by third-party providers over the public Internet, making them available to anyone who wants to use or purhcase them.
+	Azure owns the hardware on their network and infrastructure.
+	
+Private Cloud
+
+	Is defined as computing services offered either over the Internet or a private internal network and only to selectt users instead of the general public.
+	Looks and acts like a cloud, except customer owns or leases or has exclusive access to the hardware.
+	Example: Azure Government Cloud
+	
+	Azure Local (Formerly Azure Stack HCI) - Lets you run azure in your private hardware.
+	
+	Azure Arc - enables you to manage and govern resources across on-premises, multi-cloud, and edge environments as if they were running in Microsoft Azure.
+
+Hybrid Cloud
+
+	Is a computing environment that combines a private cloud with a public cloud.
+	Combination of public and private clouds; scale private infrastructure to the cloud.
+	
+	Azure File Sync - a service that allows you to centralize your organization’s file shares in Azure while keeping the flexibility, performance, and compatibility of an on-premises file server.
+
+Comparison
+
+Public Cloud
+Cost - Operational Expenditure (OpEx)
+Ownership - Azure
+Access - General Public
+Scalability - Massive/Elastic
+Core Value - Speed, Cost, Efficiency
+
+Private Cloud
+Cost - Capital Expenditure (CapEx)
+Ownership - You 
+Access - Restricted
+Scalability - Limited
+Core Value - Control, Security, Compliance
+
+Hybrid Cloud
+Cost - Blend
+Ownership - Both 
+Access - Combination
+Scalability - Flexible
+Core Value - Flexibility and Control
+
+============================================================================================================================
+
+Cloud Pricing
+
+Factors affecting VM Pricing
+
+	- Geographical Region
+	- Instance Size
+	- Bandwidth
+	- Reservation/Saving Plan
+	- Operating System SKU / License
+	- Disk Type / Size
+	- Backup Storage
+	- Support Aggrement
+	
+Factors Affecting Cosmos DB Pricing
+
+	- API Choice
+	- Region/Regions
+	- Standard Model/ Serverless
+	- Number of Operations per second
+	- Consumed Storage
+	- Optional Dedicated Gateway
+	- Backup Storage
+	
+Payment Categories
+
+You can Pay for time
+	- Some Serives charge by time used.
+	- Stop using the service to stop the charges.
+	- ie. Virtual Machine instances.
+	
+You can Pay for GB
+	- Usually you pay for any data storage used.
+	- Fairly cheap - 0.02 per GB per month
+	- Also pay for network traffic to/from other regions, or to the internet.
+	- Inbound Traffic is free/ Outbound is billed
+
+Pay for Operations
+	- In addition to paying for storage space, and bandwidth, you can also be charged per operation.
+	- Operation are read, write, list, delete
+	- Pay per message, pay per query to a database, etc.
+	- Usually very cheap per operation.
+	
+============================================================================================================================
+
+Azure Pricing Calculator is a tool that allows you to estimate the cost of Azure services before you deploy them.
+
+Azure Pricing Calculator = estimate Azure costs before deployment
+
+Azure Cost Management → tracks actual usage
+Pricing Calculator → estimates before using
+
+Key exam points:
+Helps estimate monthly costs
+Add and configure Azure services (VMs, storage, etc.)
+Shows total expected pricing
+Useful for planning and budgeting
+
