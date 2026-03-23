@@ -1,0 +1,175 @@
+Section 1: AZ-900 Study Plan
+
+AZ-900 : 21-Day Study Plan
+If you're interested in taking the AZ-900 exam within the next 21 days, I put together this study plan that you can use to follow to reach that goal. It is attached to this lesson as a PDF resource download - scroll to the bottom of this article to download.
+
+It aims for 30-45 minutes per day of study, and gives at least one day per week for review and doing practice tests.
+
+✅ 21-Day AZ-900 Study Plan (For Latest Jan 2024 Objectives)
+Week 1: Cloud Concepts + Azure Core Architecture
+Day 1: Introduction to Cloud Computing
+
+What is cloud computing
+
+Benefits: high availability, scalability, elasticity, agility, fault tolerance
+
+Shared responsibility model
+
+Consumption-based model
+
+Day 2: Cloud Models & Service Types
+
+Public, private, hybrid cloud
+
+IaaS, PaaS, SaaS
+
+Use cases for each model/service
+
+Day 3: Core Azure Architectural Components
+
+Regions, region pairs, availability zones
+
+Azure datacenters
+
+Azure resources and resource groups
+
+Day 4: Subscriptions and Management Hierarchy
+
+Subscriptions, management groups
+
+Billing structure
+
+Hierarchy of Azure resources
+
+Day 5: Review + Practice Quiz (Cloud Concepts & Architecture)
+
+Review Days 1-4
+
+Practice quiz (10-15 questions)
+
+Focus on weak points
+
+Day 6: Azure Compute Services
+
+VMs, containers, functions
+
+VM scale sets, availability sets
+
+App hosting: App Service, container instances
+
+Day 7: Azure Networking Basics
+
+Virtual Networks, subnets, peering
+
+VPN Gateway, ExpressRoute
+
+Public vs private endpoints
+
+Week 2: Azure Storage, Identity, Security
+Day 8: Azure Storage Services
+
+Storage types: Blob, Disk, File
+
+Redundancy options (LRS, ZRS, GRS)
+
+Storage tiers: hot, cool, archive
+
+Day 9: File Movement & Migration Options
+
+Tools: AzCopy, Storage Explorer, File Sync
+
+Azure Migrate, Data Box
+
+Day 10: Microsoft Entra ID + Identity Basics
+
+Entra ID (formerly Azure AD), Domain Services
+
+Authentication: SSO, MFA, passwordless
+
+External identities: B2B, B2C
+
+Day 11: Access Control & Conditional Access
+
+Role-Based Access Control (RBAC)
+
+Conditional Access policies
+
+Least privilege principle
+
+Day 12: Security Concepts in Azure
+
+Zero Trust, defense in depth
+
+Microsoft Defender for Cloud
+
+Network security groups (NSGs)
+
+Day 13: Review + Practice Quiz (Storage + Identity + Security)
+
+Review Days 8-12
+
+Quiz (15+ questions)
+
+Focus on weak areas
+
+Day 14: Practice Exam #1 (Timed, 30-40 min)
+
+Simulate real conditions
+
+Review missed questions
+
+Week 3: Management, Governance, Monitoring
+Day 15: Azure Cost Management
+
+Factors that affect cost
+
+Pricing calculator, TCO calculator
+
+Budgets, tags, resource locks
+
+Day 16: Azure Governance Tools
+
+Microsoft Purview
+
+Azure Policy
+
+Management groups, resource hierarchy
+
+Day 17: Resource Deployment and Management
+
+Azure Portal, CLI, PowerShell
+
+Azure Arc
+
+ARM templates (intro only)
+
+Day 18: Azure Monitoring & Alerts
+
+Azure Monitor: Log Analytics, alerts
+
+Azure Advisor
+
+Azure Service Health
+
+Application Insights (basic)
+
+Day 19: Review + Practice Quiz (Governance & Management)
+
+Review Days 15-18
+
+Quiz (15+ questions)
+
+Day 20: Final Practice Exam #2 (Full length)
+
+Timed, realistic test
+
+Review all wrong answers carefully
+
+Day 21: Final Review & Exam Tips
+
+Review notes + cheat sheet
+
+Focus on the weakest areas
+
+Mental prep: time management, exam mindset
+
