@@ -1,0 +1,24 @@
+Section 3 - AZ-900 - Benefits of Cloud Computing
+
+	High Availability Benefit of Cloud Computing (Uptime)
+		
+		High Availability (HA) - Ability of a system to remain operational to users during planned or unplanned outages.
+		
+			Planned Outages
+				- Operating System security patches
+				- Application updates
+				- Hardware replacement
+				- Migrating to a new hosting provider
+			
+			Unplanned Outages
+				- Hardware failure
+				- Network disruptions
+				- Power Outages
+				- Natural Disasters
+				- Cyber Attacks
+				- Software Bugs
+				- Poor scaling / Architecture Design
+		
+		Method to Mitigate Planned Outages
+			- Gradual deployment strategy
+			
