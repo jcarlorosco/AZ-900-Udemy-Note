@@ -140,9 +140,38 @@ How is it achieved?
 	- API
 	- Pricing calculators
 
+===================================================================================================
 
+Security Benefit of Cloud Computing
 
+Security
+	- Cloud providers are obiously massive targets for hackers and so they rightly spend a lot of time, money and effor on platform security.
+	- Cloud providers go through security audits and compliance certifcations.
+	- And provide customers the tools they need to enable and monitor security with their own applications/data.
 
+Why is it needed?
+	- Security is a fundamental challenge in IT.
+	- You want confidence that your cloud provider cannot easily be defeated by hackers and those with malicious intent.
+
+How is it achieved?
+	- Industry standard compliance certifications
+	- Microsoft Security Response Center (MSRC)
+	- Always-on DDoS
+	- Azure Policy
+	- Rolse based access control (RBAC)
+	- Entra ID (formerly Azure Active Directory)
+	- Always up to date platform services
+	- Update Management
+	- Encryption by default
+
+===================================================================================================
+
+Governance Benefit of Cloud Computing
+
+Governance
+	- How your organization does business.
+	- The process of defining, implementing and monitoring a gramework of policies that guides an organication's cloud operations.
+	
 
 
 
