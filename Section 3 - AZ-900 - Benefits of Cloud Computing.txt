@@ -172,6 +172,45 @@ Governance
 	- How your organization does business.
 	- The process of defining, implementing and monitoring a gramework of policies that guides an organication's cloud operations.
 	
+How Is it achieved?
+	- Azure Policy and Blueprint
+	- Management Groups
+	- Custom roles
+	- Soft Delete
+
+===================================================================================================
+
+Manageability Benefit of Cloud Computing
+
+Manageability
+	- Management of the cloud
+	- Management in the Cloud
+
+Management of the Cloud
+	- Templates
+	- Automation
+	- Scaling
+	- Monitoring and alets
+	- Self-healing
+
+Management in the Cloud
+	- Web Portal
+	- Command line interface and scripts
+	- APIs
+	- PowerShell
+
+Why is it needed?
+	- How easy it is to work with your applications in the cloud impacts cost, performance, security and other priorities.
+	- Different cloud vendors are going to be easier or harder to work with
+
+How is it achieved?
+	- Azure Portal, CLI, PowerShell, Cloud Shell, REST APIs, and other programmatic methods.
+	- COnsolidated monitoring and alerting system.
+	- Ability to use ARM templates, Bicep, Terraform, etc.
+	- Autoscal.ing of most types of compute resources.
+
+
+	
 
 
 
