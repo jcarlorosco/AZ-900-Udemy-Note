@@ -42,5 +42,9 @@ Platform as a Service (PaaS)
 		- One example is Azure App Services
 		- Simply upload your code and configuration to Azure, and it runs your code without needing to worry about the VM underneath.
 		- Includes scaling features, CI/CD, containers, staging and development environments, etc.
-		
+
+	PaaS Storage
+		- Managed Storage is an example of this.
+		- Azure SQL Database is another example.
+		- Freed from worrying about the server VM itself or the hard disk itself.
 	
