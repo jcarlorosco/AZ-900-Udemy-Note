@@ -1,0 +1,34 @@
+Section 5:  AZ-900 - Core Arcitectural Components of Azure
+
+Azure Regions
+
+	- Areas of the world where azure has a set of datacenters (minimum 3 in a set)
+	- Not necessarily "countries" but can be
+	- Usually each regions is connected to another region to make a "region pair"
+	- Region pairs have highest speed connecctions and special treatment during azure updates
+	
+E.g. Canada
+	- Canada has two regions - Cana Central and Canada East
+	- Data Stored in these regions never leaves Canada
+	- Anyone can use these regions
+	
+E.g. Brazil
+	- Brazil only has one region - Brazil South
+	- Currently is the only region in South America, but Chile is coming online soon
+	- Paired with South Central US (One way)
+	- Data does leave Brazil (to the US)
+	
+E.g. Qatar
+	- Qatar is the first region that does not have a pair
+	- Does not support Geo-Redundant Storage (GRS) option
+	- Uses Availability Zones for high availability
+	
+When you create a resource in Azure, you have the choice of where to deploy it.
+
+60+ regions but most of them are not available to everyone.
+
+Sovereign Azure
+	- These are not connected to the Azure Public Cloud
+	- Require approval to join / create a subscription
+	- Adhere to different compliance standards
+
