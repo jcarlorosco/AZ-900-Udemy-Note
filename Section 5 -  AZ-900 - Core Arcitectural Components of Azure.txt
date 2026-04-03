@@ -32,3 +32,116 @@ Sovereign Azure
 	- Require approval to join / create a subscription
 	- Adhere to different compliance standards
 
+=================================================================================
+
+Availability Zones
+	- Azure availability zones are physically separate locations within each azure region
+	- Independent power, cooling, and networking infrastructure.
+	- Not every region supports availability zones.
+	- Not every service supports availability zones.
+
+Three types of AZ Services
+	- Zonal Services
+	- Zone-Redundant Services
+	- Always Available Services
+
+Zonal Services
+	- You can choose a specific availability Zone to deploy the service to.
+	- You then should deploy a duplicate service to another zone to achieve resiliency
+	- E.g. Virtual Machines
+
+Zone-Redundant Services
+	- Automatically deployed across zones for you
+	- You don't have to configure it
+	- E.g. Azure SQL Database
+
+Always Available Services
+	- These are global services and Microsoft takes care of the ensuring that they are always on
+	- Also called "Non-regional services"
+	- E.g. Azure Portal, Entra ID (Formerly Azure Active Directory), Azure Front Door
+
+=================================================================================
+
+Azure Resource
+
+Resources -> Resource Groups -> Subscriptions -> Management Groups
+
+Resources
+	- A generic word to represent an Azure service that you have access to, such as a specific Virtual Machine, Storage Account, or Database
+	- You can create a resource in many different ways - Azure Portal, CLI, PowerShell, ARM, Template, etc.
+	- Each resource has a name created by you
+	- Sometimes it has to be unique, sometimes not
+	- Generally, you indicate the region where they are to be created.
+
+All Resources
+	- A brand new subscription is caretted with no resources
+	- Most resources have costs associated with them.
+	- The resource is associated with one (and only one) subscription, to which its cost is billed.
+
+Resource Group
+	- A logical grouping of resources
+	- Resource Group associated with a region, which can be different than the resources it contains.
+	- All services in a resource group should have a similar lifecycle - deploy together, delete together.
+
+Resource and Group
+	- All resources must belong to one and only one resource group.
+	- Permissions can be assigned at the resource group level.
+	- There is no security boundary offered by a resource group for communications.
+
+=================================================================================
+
+Subscriptions
+	- The billing unit within Azure
+	- Administrative boundary for governance, compliance and access control.
+	- Every resource must exist inside one subscription
+	- Always a payment method associated with a subscription
+	- Users can have access to more than one subscription, and different roles.
+	- Cannot be nested - A subscription cannot contain other subscription.
+
+Subscription Plans
+	- Free plan - $200 credits first 30 days
+		- can only have one
+	- Pay as you Go - Billed to credit card
+	- Enterprise Agreement - EA
+	- Free credits - MSDN, startup plans
+
+Users
+	- A single user can have access to multiple subscriptions with different roles through Role Based Access Control (RBAC)
+	- If you're not in a subscription, you can't see its resources.
+
+Multiple Subscriptions
+	- Some companies can choose to have multiple subscriptions
+	- Can be used to separate out business units within an organization - e.g. Sales, IT, Finance
+	- Or separate by geography - e.g. North America, Europe, Asia.
+
+It's possible to operate an entire organization on a single subscription.
+
+=================================================================================
+
+Management Groups 
+	- Logical Container for your subscriptions
+	- Allowing you to govern access, policies and compliance accross those multiple subcriptions from a single centralized point
+	- Highly recommended for organizations that have multiple subscriptions
+
+Root Mangement Group
+	- The top-level management group in Azure that sits above all other management groups and subscriptions in a tenant.
+
+Think of it like a main parent folder:
+	- Root Management Group = Top folder
+	- Management Groups = Subfolders
+	- Subscriptions = Files inside folders
+
+Subscriptions can belong to 0 or 1 group, no more
+
+Root Management Group + Max 5 more (cant go to 6)
+
+Purpose of Management Groups
+	- Group subsciptions into a hierarchy and manage them at scale.
+	- Appliy policies, RBAC, and governance settings once at the top level - inheritance
+	- Enforce consistent standards across departments
+	- Organize large Azure environments into clean, predictable structure to simply compliance.
+
+
+
+
+
