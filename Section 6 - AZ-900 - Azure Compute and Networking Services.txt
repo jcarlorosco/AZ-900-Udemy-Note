@@ -48,7 +48,6 @@ Virtual Machines
 
 In AWS, a virtual machine is called Elastic Compute Cloud (EC2)
 
-
 ========================================================
 
 Scaling VM using VM scale Sets (VMSS)
@@ -73,6 +72,17 @@ VM Scale Sets
 	- Can handle up to 100 VMs in a single scale set.
 	- Can be configured  to increase that to 1000 VMs in a single scale set.
 	- If you need more, you can create more scalesets.
+
+========================================================
+
+Availability Sets
+	- You have multiple Virtual Machines that have an identical function.
+	- You want to signify to Azure that they should be separated from each other in a certain way.
+	- Fault isolation.
+		- Fault domain and update domain.	
+		- Separate power sources and network switches.
+		- Updated one at a time, not all together.
+
 
 
 	
